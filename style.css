@@ -1,0 +1,27 @@
+h1
+{
+    color: red;
+    border:  yellow 2px dashed;
+}
+body
+{
+    background-image: url(./background/montagne.jpg);
+}
+a{
+    color: red;
+
+}
+a:hover
+{
+    text-decoration: underline;
+    color: yellow;
+    font-weight: bold;
+}
+
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: green;
+}
+
+a:visited{
+    color: black;}
